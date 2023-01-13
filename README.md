@@ -1,9 +1,9 @@
 # twitch-chess
 A program that lets twitch chat play chess against a bot.
 
-You will need: affiliate/partnered [Twitch](https://www.twitch.tv/) account
-
 # Set-Up:
+**You will need an affiliate/partnered [Twitch](https://www.twitch.tv/) account.**
+
 1. Go to https://twitchtokengenerator.com/ and select "Custom Scope Token". In "Available Token Scopes" add scope to `chat:read`, `chat:edit`, `channel:manage:polls`, and `channel:read:polls`. Click generate token and save the information.
 
 2. In the [.env](twitchchess/.env) file, paste your Access Token after `BOT_TOKEN=`. Then enter your twitch ID and twitch username after `USER_ID=` and `USER_NAME=`, respectively. Finally enter your twitch username after `CHANNEL=`.
