@@ -14,7 +14,7 @@ from chessai import Chessai
 # !quit
 
 #TODO: create_chess_poll() sometimes has twitchio error, find and fix (maybe fixed?)
-#TODO: fix line 57
+#TODO: fix line 68
 #TODO: add stockfish to chessai
 
 class Bot(commands.Bot):
@@ -99,6 +99,7 @@ class Bot(commands.Bot):
     async def quit_game(self):
         self.initialized = False
         self.playing = False
+        self.last_move = None
         try:
             await self.user.end_poll(token=self.token, poll_id=self.poll, status='TERMINATED')
         except Exception as e:
