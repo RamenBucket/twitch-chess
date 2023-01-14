@@ -1,6 +1,8 @@
 # twitch-chess
 A program that lets twitch chat play chess against a bot.
 
+![game](images/game.png)
+
 # Set-Up:
 **You will need an affiliate/partnered [Twitch](https://www.twitch.tv/) account.**
 
