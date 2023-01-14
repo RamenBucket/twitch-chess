@@ -10,7 +10,7 @@ A program that lets twitch chat play chess against a bot.
 
 3. In your python virtual enviornment (I used [Anaconda](https://www.anaconda.com/)), run `$ pip install -r requirements.txt`.
 
-4. cd into the cloned directory and start the bot by entering `python twitchchess.py`.
+4. cd into the cloned directory and start the bot by entering `$ python twitchchess.py`.
 
 # Commands (for Twitch chat):
 `!init [color] [time]` - For this command, color is either "black" or "white" and time must be between 15 and 1800 seconds. By default, color is white and time is 15.
