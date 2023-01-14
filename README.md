@@ -1,7 +1,7 @@
 # twitch-chess
 
 ## What is twitch-chess?
-A program that lets twitch chat play chess against a bot.
+A program that lets twitch chat play chess against a bot. Watch it in action [here](https://youtu.be/qXB5LhY5R0g)!
 
 ![game](images/game.png)
 
