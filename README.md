@@ -1,9 +1,11 @@
 # twitch-chess
+
+## What is twitch-chess?
 A program that lets twitch chat play chess against a bot.
 
 ![game](images/game.png)
 
-# Set-Up:
+## Set-Up:
 **You will need an affiliate/partnered [Twitch](https://www.twitch.tv/) account.**
 
 1. Go to https://twitchtokengenerator.com/ and select "Custom Scope Token". In "Available Token Scopes" add scope to `chat:read`, `chat:edit`, `channel:manage:polls`, and `channel:read:polls`. Click generate token and save the information.
@@ -14,7 +16,7 @@ A program that lets twitch chat play chess against a bot.
 
 4. cd into the cloned directory and start the bot by entering `$ python twitchchess.py`.
 
-# Commands (for Twitch chat):
+## Commands (for Twitch chat):
 `!init [color] [time]` - For this command, color is either "black" or "white" and time must be between 15 and 1800 seconds. By default, color is white and time is 15.
 
 `!play` - Starts the game.
