@@ -12,9 +12,11 @@ A program that lets twitch chat play chess against a bot. Watch it in action [he
 
 2. In the [.env](twitchchess/.env) file, paste your Access Token after `BOT_TOKEN=`. Then enter your twitch ID and twitch username after `USER_ID=` and `USER_NAME=`, respectively. Finally enter your twitch username after `CHANNEL=`.
 
-3. In your python virtual enviornment (I used [Anaconda](https://www.anaconda.com/)), run `$ pip install -r requirements.txt`.
+3. cd into the twitchchess folder
 
-4. cd into the twitchchess folder and start the bot by entering `$ python twitchchess.py`.
+4. In your python virtual enviornment (I used [Anaconda](https://www.anaconda.com/)), run `$ pip install -r requirements.txt`.
+
+5.  Start the bot by entering `$ python twitchchess.py`.
 
 ## Commands (for Twitch chat):
 `!init [color] [time]` - For this command, color is either "black" or "white" and time must be between 15 and 1800 seconds. By default, color is white and time is 15.
